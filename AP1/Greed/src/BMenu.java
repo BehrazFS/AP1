@@ -139,6 +139,9 @@ public class BMenu extends JFrame implements MouseListener{
 			else if (num.charAt(i) == '9') {
 				
 			}
+			else if (num.charAt(i) == '0') {
+
+			}
 			else {
 				return false;
 			}
