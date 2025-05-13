@@ -1,1 +1,1 @@
-The 1st project of Advanced Programming class
+The 1st project of Advanced Programming cource
