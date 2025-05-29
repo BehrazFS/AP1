@@ -92,7 +92,7 @@ public class BMenu extends JFrame implements MouseListener{
 		button3.setForeground(Color.yellow);
 		button3.addMouseListener(this);
 		//-----menu frame
-		this.setVisible(true);
+
 		this.setIconImage(dimg2);
 		this.setTitle("Menu");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -106,6 +106,7 @@ public class BMenu extends JFrame implements MouseListener{
 		panel.add(button3);
 		panel.add(label1);
 		panel.add(label2);
+		this.setVisible(true);
 	}
 	public boolean isNumber(String num) {
 		if(num.length() == 0) {
